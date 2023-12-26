@@ -117,7 +117,7 @@ footer a:hover {
 </head>
 <body>
     <header>
-        <h3>Особистий веб-сайт Ляшенка Ярослава</h3>
+        <h3>Особистий веб-сайт Хави Дмитра</h3>
         <nav>
             <ul>
                 <li><a href="https://github.com/Zini68">Головна</a></li>
