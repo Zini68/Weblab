@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма реєстрації</title>
+</head>
+<body>
+    <h1>Форма реєстрації</h1>
+    <form action="ваш_серверний_скрипт.php" method="post">
+        <div>
+            <label for="ім'я">Ім'я:</label>
+            <input type="text" id="ім'я" name="ім'я" required>
+        </div>
+        <div>
+            <label for="прізвище">Прізвище:</label>
+            <input type="text" id="прізвище" name="прізвище" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="пароль">Пароль:</label>
+            <input type="password" id="пароль" name="пароль" required>
+        </div>
+        <div>
+            <label for="підтвердження_паролю">Підтвердження паролю:</label>
+            <input type="password" id="підтвердження_паролю" name="підтвердження_паролю" required>
+        </div>
+        <div>
+            <label for="дата_народження">Дата народження:</label>
+            <input type="date" id="дата_народження" name="дата_народження">
+        </div>
+        <div>
+            <label for="стать">Стать:</label>
+            <select id="стать" name="стать">
+                <option value="чоловік">Чоловік</option>
+                <option value="жінка">Жінка</option>
+                <option value="інше">Інше</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Зареєструватися">
+        </div>
+    </form>
+</body>
+</html>

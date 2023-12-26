@@ -1,0 +1,35 @@
+.aside-menu_block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20vw;
+    height: 100%;
+}
+.aside-menu_item {
+    display: flex;
+    flex-direction: column;
+}
+.aside-menu_item>button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.aside-menu_item>button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.aside-menu_item_svg {
+    position: relative;
+    height: 24px;
+    width: 24px;
+}
+.aside-menu_item_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.aside-menu_item>button {
+    text-align: start;
+}

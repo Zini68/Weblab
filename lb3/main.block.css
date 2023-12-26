@@ -1,0 +1,54 @@
+.main_block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.main_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+}
+.header_block {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+    height: 40px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    border: 2px solid #CCCC;
+}
+.header_finder_block {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.header_block>button {
+    width: 70px;
+    height: 100%;
+    background: #F8F8F8;
+}
+.header_block>input {
+    padding: 20px;
+    background: rgba(139,139,139,0);
+    width: 100%;
+    color: #000000;
+}
+.header_round_button {
+    height: 40px;
+    width: 40px;
+    background: #F2F2F2;
+    border-radius: 100%;
+}
+.header_img_button {
+    height: 40px;
+    width: 40px;
+}
+.header_user_menu {
+    display: flex;
+    flex-direction: row;
+}
