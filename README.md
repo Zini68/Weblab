@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Особистий веб-сайт Ляшенка Ярослава</title>
+    <title>Особистий веб-сайт Хави Дмитра</title>
     <style>
 header {
     background-color: #333;
